@@ -45,7 +45,6 @@ with open('source_file_2.json', 'r') as myfile, open('watchers.json', 'w') as wa
     final_man = {}
     for a in manager_json:
         final_man[a] = [res[0] for res in manager_json[a]]
-        print(final_man[a])
 
     final_watcher = {}
     for a in watcher_json:
